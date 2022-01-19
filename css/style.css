@@ -4,6 +4,7 @@ body {
     font-family: 'Roboto', sans-serif;
     display: flex;
     flex-direction: column;
+    margin: 0;
 }
 
 .header {
@@ -12,7 +13,7 @@ body {
 }
 
 .hero {
-    padding: 0 200px;
+    margin: 0 200px;
 }
 
 .hero-nav {
@@ -34,7 +35,7 @@ ul {
     gap: 16px;
 }
 
-.a, .sec-txt {
+a, .sec-txt {
     color: #e5e7eb;
     font-size: 18px;
 }
