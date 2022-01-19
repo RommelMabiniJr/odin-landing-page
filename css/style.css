@@ -2,6 +2,8 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
 }
 
 .header {
@@ -9,10 +11,19 @@ body {
     color: #f9faf8;
 }
 
+.hero {
+    padding: 0 200px;
+}
+
 .hero-nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+.nav-l {
+    font-size: 24px;
+    font-weight: 900;
 }
 
 ul {
@@ -23,7 +34,11 @@ ul {
     gap: 16px;
 }
 
+.a, .sec-txt {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
 a {
     text-decoration: none;
-    color: #e5e7eb;
 }
