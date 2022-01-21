@@ -134,3 +134,32 @@ a {
     color: #5e5e5e;
     font-size: 18px;
 }
+
+.qoute-con {
+    background-color: #e5e7eb;
+    padding: 100px 250px;
+    
+}
+.q-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+.qoute {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1f2937;
+}
+
+.qouted {
+    align-self: flex-end;
+    font-size: 24px;
+    font-weight: bold;
+    color: #1f2937;
+    margin-right: 35px;
+}
