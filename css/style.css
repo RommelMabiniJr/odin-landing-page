@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,700;0,900;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,700;0,900;1,300&display=swap');
 
 body {
     font-family: 'Roboto', sans-serif;
@@ -12,12 +12,18 @@ body {
 }
 
 .hero {
-    margin: 0 200px;
+    margin-left: 160px;
+    margin-right: 175px;
 }
 
 .hero-nav {
     align-items: center;
     justify-content: space-between;
+    padding: 16px 0;
+}
+
+.hero-con {
+    margin: 100px 0;
 }
 
 .hero-con,
@@ -34,7 +40,37 @@ ul {
 
 .con-l, .con-img {
     flex: 1;
-    border: 2px solid white;
+}
+
+.con-img {
+    background-color: grey;
+}
+
+.con-l {
+    display: flex;
+    flex-direction: column;
+}
+
+h1, p {
+    margin: 0;
+}
+
+.btn {
+    border-radius: 10px;
+    background-color: #3882f6;
+    width: 130px;
+    height: 35px;
+    flex: auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.sec-txt{
+    padding-right: 50px
 }
 
 .nav-l {
