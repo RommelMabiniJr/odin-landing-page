@@ -163,3 +163,43 @@ a {
     color: #1f2937;
     margin-right: 35px;
 }
+
+.real-cta {
+    padding: 100px 160px;
+}
+
+.cta-container{
+    background-color: #3b82f6;
+    border-radius: 8px;
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 120px;
+}
+
+.cta-head {
+    font-size: 24px;
+    font-weight: bold;
+    color: #f9faf8;
+    margin: 0;
+}
+
+.cta-des{
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.btn-container {
+    border-radius: 8px;
+    border: 2px solid #f9faf8;
+    color: #f9faf8;
+    font-size: 18px;
+    width: 130px;
+    height: 35px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
