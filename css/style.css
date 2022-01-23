@@ -178,7 +178,7 @@ a {
     padding: 50px 120px;
 }
 
-.cta-head {
+.cta-head2 {
     font-size: 24px;
     font-weight: bold;
     color: #f9faf8;
@@ -202,4 +202,17 @@ a {
     justify-content: center;
     align-items: center;
     font-weight: bold;
+}
+
+.footer {
+    color: #f9faf8;
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+.ftr {
+    font-size: 18px;
 }
